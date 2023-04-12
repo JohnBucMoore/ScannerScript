@@ -71,16 +71,16 @@ def start_capture():
             capture_packets(interface, output_file, capture_filter)
         elif choice == "2":
             capture_filter = input("Enter capture filter: ")
-            if interface == None:
+            if interfaces == None:
             	interface = select_interface()
             capture_packets(interfaces, output_file, capture_filter)
         elif choice == "3":
             output_file = input("Enter output file name: ")
-            if interface == None:
+            if interfaces == None:
             	interface = select_interface()
             capture_packets(interfaces, output_file, capture_filter)
         elif choice == "4":
-            if interface == None:
+            if interfaces == None:
             	interface = select_interface()
             if output_file == None:
             	user_resp_output = input("Do you want to save the output to a file? (Y/N): ").lower()
@@ -90,7 +90,7 @@ def start_capture():
                 user_resp_filter = input("Do you want to add a capture filter? (Y/N): ").lower()
                 if user_resp_filter == "y":
                     capture_filter = input("Enter capture filter: ")
-            capture_packets(interfaces, output_file, capture_filter)
+            capture_packets(interface, output_file, capture_filter)
         else:
             print("Invalid choice.")
         choice = display_menu()
