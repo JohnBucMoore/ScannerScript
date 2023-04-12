@@ -47,13 +47,13 @@ def display_menu():
     # Display capture options menu and capture user input
     print("                  === Network Capture ===          ")
     print("                === Tshark Capture Menu ===        ")
-    print("        ------------------------------------------- ")
+    print("------------------------------------------------------------------------------")
     print("| 1.    Choose an interface to capture on   | 2.    Apply a Capture Filter    |")
-    print("        -------------------------------------------  ")
-    print("         ------------------------------------------")
+    print("------------------------------------------------------------------------------")
+    print("------------------------------------------------------------------------------")
     print("| 3.     Save Capture to a File             | 4.     Run Packet Capture        |")
-    print("         ------------------------------------------")
-    print("| 5.      Exit             | ")
+    print("------------------------------------------------------------------------------")
+    print("| 5.      Exit                              | ")
     choice = input("Enter your choice: ")
     return choice
 

@@ -6,14 +6,14 @@ def v_scans():
     while True:
 
         print("")
-        print("          === Vulnerability Scan ===          ")
-        print("------------------------------------------- ")
+        print("          === Network Scan ===          ")
+        print("--------------------------------------------------------- ")
         print("| 1.    Get all information     | 2.    Just Port info  |")
-        print("-------------------------------------------  ")
-        print("------------------------------------------")
-        print("| 3.  Just operating system     | 4.    Services   |")
-        print("------------------------------------------")
-        print("              5. Exit                      |   ")
+        print("--------------------------------------------------------- ")
+        print("--------------------------------------------------------- ")
+        print("| 3.  Just operating system     | 4.    Services        |")
+        print("--------------------------------------------------------- ")
+        print("              5. Exit           |")
 
         uc = int(input("Please choose a menu option: "))
         if uc == 1:

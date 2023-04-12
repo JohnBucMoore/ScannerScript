@@ -6,14 +6,14 @@ from app_functionality import ipCheck, menu
 def firewall_setup():
     while True:
         print("")
-        print("                     === Firewall Setup ===          ")
-        print("             ------------------------------------------- ")
-        print("| 1.    Deny an IPV4 address                | 2.    Allow an IPV4 address  |")
+        print("                             === Firewall Setup ===          ")
+        print(" ---------------------------------------------------------------------- ")
+        print("| 1.    Deny an IPV4 address             | 2.    Allow an IPV4 address  |")
         print("         -------------------------------------------  ")
         print("         ------------------------------------------")
-        print("| 3.  Allow an SSH connection from IPV4    | 4.    Web Server options   |")
-        print("             ------------------------------------------")
-        print("                             5. Exit                      |   ")
+        print("| 3.  Allow an SSH connection from IPV4  | 4.    Web Server options     |")
+        print("----------------------------------------------------------------------- ")
+        print("|                             5. Exit                                   |")
 
         uc = int(input("Please choose a menu option: "))
 
